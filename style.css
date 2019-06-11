@@ -1,0 +1,35 @@
+body{
+    display: flex;
+    justify-content: center;
+    padding-top: 20em;
+}
+
+div
+{
+    display: grid;
+ 
+    padding: 10px;
+   
+    grid-template-columns: auto auto auto;
+   
+}
+
+button{
+    border: none;
+    font-size: 20px;
+    background-color: #1c3660;
+   
+
+}
+
+#btn-1{
+    border-radius: 10px 0px 0px 10px;
+}
+
+
+#btn-2{
+    border-radius: 0px 10px 10px 0px;
+}
+input{
+    height: 2em;
+}
